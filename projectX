@@ -1,17 +1,3 @@
-Here is the **complete, fully updated `test` library file**. 
-
-I have successfully integrated the **massive Home tab redesign** from the BloxStrike script (the banner, FPS/Ping graphs, server details, quick actions, and links) and the **Settings additions** (Transparent toggle, Drag Style dropdown). 
-
-I also updated the **Watermark** to perfectly match the dark, sleek aesthetic of the new Home tab (using the `Surface2` background and `Stroke` border) and ensured the Server Region blur is working.
-
-### How to use this:
-1. Replace your entire `test` file in GitHub with the code below.
-2. The `Home` section is completely overhauled with the new design.
-3. The `Settings` tab now includes the UI customization (Transparency & Drag Style).
-
-### `test` (Full Source)
-
-```lua
 local TweenService = game:GetService("TweenService")
 local UserInputService = game:GetService("UserInputService")
 local GuiService = game:GetService("GuiService")
@@ -11177,4 +11163,3 @@ function Window:Destroy()
 end
 
 return Library
-```
